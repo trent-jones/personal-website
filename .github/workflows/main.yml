@@ -9,6 +9,7 @@ jobs:
       uses: w9jds/firebase-action@v1.0.1
       with:
         args: "deploy"
+        secrets: ["1/CVMfnV5VTh-5AH0HL87KFGTQrMxvGAddkkG9nrznUlQ"]
       env:
         PROJECT_ID: "thomas-sickert-website"
-      secrets: ["1/CVMfnV5VTh-5AH0HL87KFGTQrMxvGAddkkG9nrznUlQ"]
+
