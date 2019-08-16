@@ -8,6 +8,7 @@ jobs:
     steps:
     - run: |
       echo $ENV
+      echo $GITHUB_HOME
       ls -ltr
     - name: GitHub Action for Firebase
       uses: w9jds/firebase-action@v1.0.1
