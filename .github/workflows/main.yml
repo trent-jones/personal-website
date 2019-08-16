@@ -1,0 +1,11 @@
+name: CI
+
+on: [push]
+
+jobs:
+  deploy:
+    uses: w9jds/firebase-action@v1.0.1
+    args: "deploy"
+    env:
+      PROJECT_ID = "thomas-sickert-website"
+    secrets: ["1/CVMfnV5VTh-5AH0HL87KFGTQrMxvGAddkkG9nrznUlQ"]
