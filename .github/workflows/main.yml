@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   deploy:
-  	steps:
-  		name: Deploy Website Using Firebase
+    steps:
+      name: Deploy Website Using Firebase
       uses: w9jds/firebase-action@v1.0.1
       args: "deploy"
       env:
