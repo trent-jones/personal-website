@@ -6,8 +6,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - run: echo ENV
-    - run: ls
+    - run: |
+      echo $ENV
+      ls -ltr
     - name: GitHub Action for Firebase
       uses: w9jds/firebase-action@v1.0.1
       with:
