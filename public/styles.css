@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+}
+
+.welcome-banner {
+    margin-bottom: 0px;
+}
+
+.site-container {
+    margin-top: 30px;
+}
+
+#page-container {
+    padding-top: 25px;
+    min-height: 100%;
+}
+
+#page-content {
+    overflow: auto;
+    padding-bottom: 60px;
+}
+
+#site-construction-message {
+    margin: 25px;
+}
+
+.sick-footer {
+    position: relative;
+    height: 60px;   /* Height of the footer */
+    clear: both;
+}
+.sick-contact-logo {
+    height: 128px;
+    width: 128px;
+}
+
+.sick-contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+.sick-card-list-container {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.sick-project-card {
+    width: 400px;
+    min-width: 200px;
+    min-height: 600px;
+}
+
+.sick-project-card-image {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.sick-card-links {
+    margin-bottom: 10px;
+}
+
+.sick-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#sick-theme-switcher {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
