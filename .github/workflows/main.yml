@@ -5,9 +5,9 @@ on: [push]
 jobs:
   deploy:
   	steps:
-  		- name: Deploy Website Using Firebase
-      	uses: w9jds/firebase-action@v1.0.1
+			- name: GitHub Action for Firebase
+				uses: w9jds/firebase-action@v1.0.1
       	args: "deploy"
       	env:
-        PROJECT_ID = "thomas-sickert-website"
+          PROJECT_ID = "thomas-sickert-website"
       	secrets: ["FIREBASE_TOKEN"]
